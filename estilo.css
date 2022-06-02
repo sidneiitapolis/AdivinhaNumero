@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Pangolin&family=Sansita+Swashed:wght@300;400&family=Tourney:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+*{
+    margin: 0;
+    border: none;
+ 
+}
+
+body{
+    background-color: blue;
+}
+
+
+#principal{
+    width: 93%;
+    height: 90vh;
+   
+    margin:auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(foto.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    
+    
+    
+}
+
+#divtexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#texto{
+    color: rgb(1, 3, 16);
+    text-shadow: 2px 1px #2b09ed;
+    font-size: 2.5rem;
+    font-family: 'Pangolin', cursive;
+    
+}
+
+#idInput{
+    margin-top: 10px;
+    width: 20%;    
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 5px;
+    }
+
+ #idInput:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}  
+
+#divteclado{
+    display: flex;
+    font-size: 2.5rem;
+    background-color: rgb(217, 228, 238);
+    width: 180px;
+    border-radius: 10px;
+}
+
+#del{
+    color:red;
+    font-size: 2rem;
+}
+
+.numero{
+   background-color: aliceblue;
+   box-shadow: 10px 5px 5px black;
+   text-shadow: 2px 1px #2b09ed;
+    padding: 3px;
+    margin:5px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Pangolin', cursive;
+    
+}
+
+#botaook{
+    font-size: 1.8rem;
+    margin-bottom: 3px;
+    border-radius: 15px;
+    width: 80px;
+    text-shadow: 2px 1px #2b09ed;
+    text-align: center;
+    box-shadow: 5px 2px 2px rgb(45, 8, 231);
+    cursor: pointer;
+    
+   
+}
+
+#msg{
+    margin-top: 5px;
+    font-size: 1.5rem;
+    color: rgb(8, 30, 173);
+    
+    text-align: center;
+}
+
+#jogar{
+    position: absolute;
+    top:153px;
+    width: 120px;
+    height: 62px;
+    border-radius: 15px;
+    text-shadow: 2px 1px #2b09ed;
+    box-shadow: 5px 2px 2px rgb(45, 8, 231);
+    cursor: pointer;
+   
+    text-align: center;
+    font-size: 1.3rem;
+}
+@media (max-width: 460px){
+
+
+    #texto{
+        
+        font-size: 1.6rem;
+    }
+    
+   
+
+    #idInput{
+        width: 100px;
+        font-size: 2rem;
+        
+    }
+
+    #divteclado{
+        display: flex;
+        font-size: 2rem;
+       
+        width: 180px;
+        border-radius: 10px;
+    }
+    .numero{
+        
+        margin:8px;
+        
+    }
+
+    #del{
+        color:red;
+        font-size: 1.5rem;
+        
+    }
+    #msg{
+        margin-top: 5px;
+        font-size: 1.2rem;
+        
+        
+    }
+   
+    #jogar{
+       
+        top:128px;
+       
+        
+    }
+}

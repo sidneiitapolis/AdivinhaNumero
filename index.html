@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Jogo Adivinha</title>
+</head>
+<body>
+    <div id="principal">
+        <div id="divtexto">
+            <p id="texto">Escolha um número :</p>
+            <input id="idInput" ><button id="botaook" >OK</button>
+        </div> 
+            <div id="divteclado">
+                
+                <div id="linha1">
+                    <div id="sete" class="numero" onclick="peganumero(7)">7</div>
+                    <div id="oito" class="numero" onclick="peganumero(8)">8</div>
+                    <div id="nove" class="numero" onclick="peganumero(9)">9</div>
+                </div>   
+                <div id="linha2"> 
+                    <div id="quatro" class="numero" onclick="peganumero(4)">4</div>
+                    <div id="cinco" class="numero" onclick="peganumero(5)">5</div>
+                    <div id="seis" class="numero" onclick="peganumero(6)">6</div>
+                </div> 
+                <div id="linha3"> 
+                    <div id="um" class="numero" onclick="peganumero(1)">1</div>
+                    <div id="dois" class="numero" onclick="peganumero(2)">2</div>
+                    <div id="tres" class="numero" onclick="peganumero(3)">3</div>
+                </div> 
+                <div id="linh4"> 
+                    <div id="zero" class="numero" onclick="peganumero(0)">0</div>
+                    <div id="del" class="numero" onclick="apagar()">del</div>
+                    
+                </div> 
+                
+                
+            </div> 
+            <div id="msg"></div>  
+            <button id="jogar" onclick="jogar()">Jogar Novamente</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

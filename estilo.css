@@ -61,7 +61,7 @@ body{
     display: flex;
     font-size: 2.5rem;
     background-color: rgb(217, 228, 238);
-    width: 180px;
+    width: 200px;
     border-radius: 10px;
 }
 
@@ -160,6 +160,7 @@ body{
     #jogar{
        
         top:128px;
+        font-size: 1rem;
        
         
     }

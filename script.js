@@ -9,7 +9,7 @@
    
     let jogadorN =0
     let erros=0
-    inputJog.focus()
+    inputJog.disabled=true
 
     
  
